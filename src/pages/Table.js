@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Contact from "./Contact";
 
 const TableHeader = () => {
     return (
@@ -28,11 +29,14 @@ class Table extends Component {
   render() {
     const { characterData } = this.props
     return (
-      <table className="table table-hover">
-        <TableHeader />
-        <TableBody characterData={characterData} />
-      </table>
-    )
+      <div>
+        <table className="table table-hover">
+          <TableHeader />
+          <TableBody characterData={characterData} />
+        </table>
+        <Contact />
+      </div>
+    );
   }
 }
 
