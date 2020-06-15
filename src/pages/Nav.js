@@ -5,17 +5,13 @@ class Nav extends Component {
     const date = new Date();
     const x = date.getHours();
     let wishMsg;
-    switch (x) {
-      case x < 12:
-        wishMsg = "morning";
-        break;
-      case x >= 12 && x < 17:
-        wishMsg = "afternoon";
-        break;
-      default:
-        wishMsg = "night";
-        break;
-    }
+     if (x < 12) {
+       wishMsg = "morning";
+     } else if (x >= 12 && x < 17) {
+       wishMsg = "afternoon";
+     } else {
+       wishMsg = "night";
+     }
     return (
       <div>
         <nav className="navbar justify-content-start">
