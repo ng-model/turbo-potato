@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/turbo-potato/precache-manifest.d872f2b136369fc9f51f17b9d776e7b0.js"
+  "/turbo-potato/precache-manifest.1deaeeaa3cc0f2a77718c18e74d30be8.js"
 );
 
 self.addEventListener('message', (event) => {

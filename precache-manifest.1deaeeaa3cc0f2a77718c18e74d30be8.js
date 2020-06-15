@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "772ff7793e595eed5e534ee2189a22c0",
+    "revision": "38e59c362af37c4f393956a10d68d682",
     "url": "/turbo-potato/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/turbo-potato/static/css/2.74189dbb.chunk.css"
   },
   {
-    "revision": "edd71e8c9aca4747be24",
+    "revision": "70b62e05d96ce8c82c20",
     "url": "/turbo-potato/static/css/main.b81aef37.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/turbo-potato/static/js/2.728b9dd5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "edd71e8c9aca4747be24",
-    "url": "/turbo-potato/static/js/main.32eef347.chunk.js"
+    "revision": "70b62e05d96ce8c82c20",
+    "url": "/turbo-potato/static/js/main.b00f4dde.chunk.js"
   },
   {
     "revision": "20f1ff72f3bd50a0a056",
