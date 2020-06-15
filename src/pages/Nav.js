@@ -1,11 +1,25 @@
 import React, { Component } from "react";
 
 class Nav extends Component {
-    render() {
-        const url = 'something';
+  render() {
+    const url = "something";
+    const date = new Date();
+    const x = date.getHours();
+    let wishMsg;
+    switch (x) {
+      case x < 12:
+        wishMsg = "morning";
+        break;
+      case x >= 12 && x < 17:
+        wishMsg = "afternoon";
+        break;
+      default:
+        wishMsg = "night";
+        break;
+    }
     return (
       <div>
-        <nav className=" nav navbar bg-light">
+        <nav className="navbar justify-content-start">
           <a className="nav-link active" href={url}>
             Active
           </a>
@@ -15,13 +29,8 @@ class Nav extends Component {
           <a className="nav-link" href={url}>
             Link
           </a>
-          <a
-            className="nav-link disabled"
-            href="#"
-            tabindex="-1"
-            aria-disabled="true"
-          >
-            Disabled
+          <a className="nav-link disabled">
+            Good {wishMsg} user
           </a>
         </nav>
       </div>
