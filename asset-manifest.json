@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/turbo-potato/static/css/main.b81aef37.chunk.css",
+    "main.js": "/turbo-potato/static/js/main.32eef347.chunk.js",
+    "main.js.map": "/turbo-potato/static/js/main.32eef347.chunk.js.map",
+    "runtime-main.js": "/turbo-potato/static/js/runtime-main.73dc4472.js",
+    "runtime-main.js.map": "/turbo-potato/static/js/runtime-main.73dc4472.js.map",
+    "static/css/2.74189dbb.chunk.css": "/turbo-potato/static/css/2.74189dbb.chunk.css",
+    "static/js/2.728b9dd5.chunk.js": "/turbo-potato/static/js/2.728b9dd5.chunk.js",
+    "static/js/2.728b9dd5.chunk.js.map": "/turbo-potato/static/js/2.728b9dd5.chunk.js.map",
+    "index.html": "/turbo-potato/index.html",
+    "precache-manifest.d872f2b136369fc9f51f17b9d776e7b0.js": "/turbo-potato/precache-manifest.d872f2b136369fc9f51f17b9d776e7b0.js",
+    "service-worker.js": "/turbo-potato/service-worker.js",
+    "static/css/2.74189dbb.chunk.css.map": "/turbo-potato/static/css/2.74189dbb.chunk.css.map",
+    "static/css/main.b81aef37.chunk.css.map": "/turbo-potato/static/css/main.b81aef37.chunk.css.map",
+    "static/js/2.728b9dd5.chunk.js.LICENSE.txt": "/turbo-potato/static/js/2.728b9dd5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.73dc4472.js",
+    "static/css/2.74189dbb.chunk.css",
+    "static/js/2.728b9dd5.chunk.js",
+    "static/css/main.b81aef37.chunk.css",
+    "static/js/main.32eef347.chunk.js"
+  ]
+}
