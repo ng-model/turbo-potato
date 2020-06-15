@@ -2,7 +2,6 @@ import React, { Component } from "react";
 
 class Nav extends Component {
   render() {
-    const url = "something";
     const date = new Date();
     const x = date.getHours();
     let wishMsg;
@@ -20,18 +19,18 @@ class Nav extends Component {
     return (
       <div>
         <nav className="navbar justify-content-start">
-          <a className="nav-link active" href={url}>
+          <button className="btn btn-link nav-link active">
             Active
-          </a>
-          <a className="nav-link" href={url}>
+          </button>
+          <button className="btn btn-link nav-link">
             Link
-          </a>
-          <a className="nav-link" href={url}>
+          </button>
+          <button className="btn btn-link nav-link">
             Link
-          </a>
-          <a className="nav-link disabled">
+          </button>
+          <button className="btn btn-link nav-link disabled">
             Good {wishMsg} user
-          </a>
+          </button>
         </nav>
       </div>
     );

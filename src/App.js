@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import Home from "./pages/Home";
-import Todo from "./pages/Todo";
+import Users from "./pages/Users";
 import Nav from "./pages/Nav";
+import data from "./pages/userdetails";
 
 class App extends Component {
   render() {
@@ -10,7 +11,7 @@ class App extends Component {
         <Nav />
         <main>
           <Home />
-          <Todo />
+          <Users details={data} />
         </main>
       </div>
     );
