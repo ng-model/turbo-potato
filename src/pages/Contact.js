@@ -9,9 +9,9 @@ class Contact extends Component {
           <form>
             <label>
               Name:
-              <input type="text" name="name" />
+              <input className="form-control" type="text" name="name" />
             </label>
-            <input type="submit" value="Submit" />
+            <button className="btn btn-success">Click</button>
           </form>
         </div>
       </div>

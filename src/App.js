@@ -9,10 +9,8 @@ class App extends Component {
     return (
       <div className="container-fluid">
         <Nav />
-        <main>
           <Home />
           <Users details={data} />
-        </main>
       </div>
     );
   }

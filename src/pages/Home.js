@@ -3,7 +3,7 @@ import Table from "./Table";
 
 class Home extends Component {
   render() {
-    const heading = <h1>Home</h1>;
+    // const heading = <h1>Home</h1>;
     const characters = [
       {
         name: "Charlie",
@@ -24,7 +24,7 @@ class Home extends Component {
     ];
     return (
       <div>
-        <header className="text-center">{heading}</header>
+        {/* <header className="text-center">{heading}</header> */}
         <Table characterData={characters} />
       </div>
     );
