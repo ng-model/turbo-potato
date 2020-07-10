@@ -3,7 +3,6 @@ import moment from "moment";
 
 function Users(props) {
   let users = props.details;
-  console.log(users);
   let listOfUsers = users.map((user) => (
     <div className="card m-2" key={user._id.toString()}>
       <div className="card-header d-flex justify-content-between">
@@ -27,12 +26,10 @@ function Users(props) {
         <div className="custom-control custom-checkbox">
           <input
             type="checkbox"
-            id={user._id}
+            // id={user._id}
             className="custom-control-input"
           />
-          <label className="custom-control-label">
-            Check this custom checkbox
-          </label>
+          <label className="custom-control-label">{user.favoriteFruit}</label>
         </div>
       </div>
     </div>
