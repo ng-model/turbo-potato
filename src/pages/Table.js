@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Contact from "./Contact";
+import Counter from "./Counter";
 
 const TableHeader = () => {
   return (
@@ -34,7 +34,7 @@ class Table extends Component {
           <TableHeader />
           <TableBody characterData={characterData} />
         </table>
-        <Contact />
+        <Counter />
       </div>
     );
   }
