@@ -4,28 +4,23 @@ import moment from "moment";
 function Users(props) {
   let users = props.details;
   let listOfUsers = users.map((user) => (
-    <div className="card m-2" key={user._id.toString()}>
-      <div className="card-header d-flex justify-content-between">
+    <div className="card m-2" key={user._id}>
+      <div className="card-header bg-white d-flex justify-content-between">
         <p>{user.company}</p> <p>{user.balance}</p>
       </div>
       <div className="card-body">
         <div className="">
-          <p>Name: {user.name}</p> <p>Age: {user.age}</p>
-          <p>Contact: {user.phone}</p>
-          <p>Age: {user.address}</p>
-          <p>Eye Color: {user.eyeColor}</p>
-          <p>Em@il: {user.email}</p>
-          <p>Sex: {user.gender}</p>
-          <p>Registerd: {moment().format("LL")}</p>
-          <p>Company Size: {user.friends.length}</p>
           <p>
-            About:
-            <br /> {user.about}
+            Name: {user.name} {user.age} years, Contact: {user.phone}, Age:{" "}
+            {user.address}, Eye Color: {user.eyeColor}Em@il: {user.email}, Sex:{" "}
+            {user.gender}, Registerd: {moment().format("LL")}, Company Size:{" "}
+            {user.friends.length}
           </p>
         </div>
         <div className="custom-control custom-checkbox">
           <input
             type="checkbox"
+            checked={user.isActive}
             // id={user._id}
             className="custom-control-input"
           />
